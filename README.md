@@ -1,3 +1,7 @@
+# NOTE NOTE NOTE
+
+If you are using a modern version of rasbian (ie stretch), then please visit: https://github.com/peebles/rpi3-wifi-station-ap-stretch
+
 # RASPBERRY PI 3 - WIFI STATION+AP
 
 Running the Raspberry Pi 3 as a Wifi client (station) and access point (ap) from the single built-in wifi.

@@ -105,6 +105,9 @@ Now to activate this, run the following command:
 Replace `_AP_SSID_` with the SSID you want for your access point.  Replace `_AP_PASSWORD_` with the password for your access point.  Make sure it has
 enough characters to be a legal password!  (8 characters minimum).
 
+IMPORTANT:  The channel used in hostapd.conf must match the control channel used by the AP you are connecting to.  This can be found using: 
+```sudo iwlist wlan0 scan | grep "your AP ssid" -B 5```
+
 ## /etc/default/hostapd
 
     DAEMON_CONF="/etc/hostapd/hostapd.conf"
